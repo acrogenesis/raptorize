@@ -12,11 +12,11 @@ The Horrid spacing zurb had on the js file
 
 This package includes
 ------------
-* [ An awesome Raptor Graphic courtesy of www.raptorize.com
-* [ MP3 and OGG audio files for the HTML5 audio on Webkit and Firefox
-* [ The jQuery Plugin which makes the magic happen
-* [ The jQuery Library to make all the pieces work together
-* [ An example HTML file that has all the initial setup pieces
+* An awesome Raptor Graphic courtesy of www.raptorize.com
+* MP3 and OGG audio files for the HTML5 audio on Webkit and Firefox
+* The jQuery Plugin which makes the magic happen
+* The jQuery Library to make all the pieces work together
+* An example HTML file that has all the initial setup pieces
 
 
 How to use
@@ -24,13 +24,13 @@ How to use
 
 ### What you need
 First let's attach the scripts and activate the plugin in the footer of your document:
-`<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-<script src="jquery.raptorize.2.0.js"></script>
-<script type="text/javascript">
-     $(window).load(function() {
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="jquery.raptorize.2.0.js"></script>
+    <script type="text/javascript">
+       $(window).load(function() {
           $('.myButton').raptorize();
-     });
-</script>`
+       });
+    </script>
 
 The only piece that you need to know here is that you need an anchor or element with the class 'myButton'. And there you have it, you're done!
 
@@ -38,14 +38,14 @@ The only piece that you need to know here is that you need an anchor or element 
 
 Raptorize can be activated on a click event, a timer which just fires after the page is loaded, or the Konami-Code (that is the default and what is have hooked up above but it only works once per page load).
 
-`<script type="text/javascript">
-   $(window).load(function() {
-      $('.button').raptorize({
-        'enterOn' : 'timer', //timer, konami-code, click
-        'delayTime' : 5000 //time before raptor attacks on timer mode
-   });
-});
-</script>`
+    <script type="text/javascript">
+       $(window).load(function() {
+          $('.button').raptorize({
+            'enterOn' : 'timer', //timer, konami-code, click
+            'delayTime' : 5000 //time before raptor attacks on timer mode
+       });
+    });
+    </script>
 
 
 ### Konami Code
