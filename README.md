@@ -7,7 +7,7 @@ Original Raptorize jQuery Plugin http://zurb.com/playground/jquery-raptorize
 
 Fixes
 ------------
-This version fixes the need to use jQuery 1.4.3 or jQuery Migrate Plugin
+This version fixes the need to use jQuery 1.4.3 or jQuery Migrate Plugin (Works with the neweset jQuery versions)
 The Horrid spacing zurb had on the js file
 
 This package includes
