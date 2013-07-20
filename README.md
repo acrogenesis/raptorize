@@ -24,6 +24,7 @@ How to use
 
 ### What you need
 First let's attach the scripts and activate the plugin in the footer of your document:
+
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <script src="jquery.raptorize.2.0.js"></script>
     <script type="text/javascript">
