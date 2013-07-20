@@ -5,8 +5,6 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
-
-
 (function($) {
   
   //Stupid Browser Checking which should be in jQuery
