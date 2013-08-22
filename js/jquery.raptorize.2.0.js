@@ -1,7 +1,6 @@
 /*
- * jQuery Raptorize Plugin 2.0
- * www.ZURB.com/playground fixed by @acrogenesis
- * Copyright 2010, ZURB
+ * jQuery Raptorize Plugin
+ * @acrogenesis
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
@@ -39,7 +38,7 @@
 		if(audioSupported) { $('body').append(raptorAudioMarkup); }
 		var raptor = $('#elRaptor').css({
 			"position":"fixed",
-			"bottom": "-700px",
+			"top": "-700px",
 			"right" : "0",
 			"display" : "block"
 		});
@@ -58,7 +57,7 @@
 							
 			// Movement Hilarity	
 			raptor.animate({
-				"bottom" : "0"
+				"top" : "130px"
 			}, function() { 			
 				$(this).animate({
 					"bottom" : "-130px"
@@ -68,7 +67,7 @@
 						"right" : offset
 					}, 2200, function() {
 						raptor = $('#elRaptor').css({
-							"bottom": "-700px",
+							"top": "-700px",
 							"right" : "0"
 						})
 						locked = false;
