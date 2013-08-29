@@ -9,6 +9,7 @@ Fixes
 ------------
 This version fixes the need to use jQuery 1.4.3 or jQuery Migrate Plugin (Works with the neweset jQuery versions)
 The Horrid spacing zurb had on the js file
+Fixed Raptor being displayed when scrolling in iOS 5, 6
 
 This package includes
 ------------
