@@ -1,6 +1,9 @@
 Raptorize jQuery Plugin
 =========
 
+An awesome jQuery plugin that unleahes a Raptor of Jurassic proportions...
+Well, technically it's Cretaceous proportions, but we'll let that slide for now.
+
 Fixed version of Raptorize: A jQuery Plugin by Zurb
 Original Raptorize jQuery Plugin http://zurb.com/playground/jquery-raptorize
 
