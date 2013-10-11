@@ -17,14 +17,13 @@
             "url" : "https://github.com/acrogenesis/raptorize.git"
         },
         "main" : "./js/jquery.raptorize.2.0.min.js",
-        "dependencies" : {
-          "jquery"
-        },
+        "dependencies" : {},
         "licenses" : [
         {
             "type": "MIT",
             "url": "http://www.opensource.org/licenses/MIT"
 		}],
+        "implements" : "AMD",
         "scripts" : {
         },
         "config" : {
@@ -35,5 +34,15 @@
                "Language": "English",
                "Restrictions": "None"
            },
+           "interface": [
+            {
+                "name": "An awesome jQuery plugin that unleashes a Raptor of Jurassic proportions... Well, technically it's Cretaceous proportions, but we'll let that slide for now",
+                "id": "time",
+                "required": true,
+                "description": "",
+                "type": "string",
+                "value": "20:30"
+            }
+            ]
         }
 }
