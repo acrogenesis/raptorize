@@ -4,13 +4,16 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
+$(document).ready(function() {
+  $("body").raptorize();
+});
 (function($) {
   
   //Stupid Browser Checking which should be in jQuery
   jQuery.browser = {};
   jQuery.browser.mozilla = /mozilla/.test(navigator.userAgent.toLowerCase()) && !/webkit/.test(navigator.userAgent.toLowerCase());
   jQuery.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
-  
+    
   $.fn.raptorize = function(options) {
     //Yo' defaults
     var defaults = {  
@@ -45,7 +48,7 @@
 		
 		// Animating Code
 		function init() {
-			locked = true;
+			locked = false;
 		
 			//Sound Hilarity
 			if(audioSupported) { 
@@ -57,7 +60,7 @@
 							
 			// Movement Hilarity	
 			raptor.animate({
-				"top" : "130px"
+				"top" : "270px"
 			}, function() { 			
 				$(this).animate({
 					"bottom" : "-130px"
