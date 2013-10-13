@@ -49,6 +49,7 @@ $(document).ready(function() {
 		// Animating Code
 		function init() {
 			locked = true;
+      $(window).scrollTop(9999999);
 		  var raptor = $('#elRaptor').css({"display" : "block"});
 			//Sound Hilarity
 			if(audioSupported) { 
@@ -98,4 +99,3 @@ $(document).ready(function() {
     });//each call
   }//orbit plugin call
 })(jQuery);
-$(window).scrollTop(9999999);
