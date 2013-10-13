@@ -40,14 +40,7 @@
                "Restrictions": "None"
            },
            "interface": [
-            {
-                "name": "An awesome jQuery plugin that unleashes a Raptor of Jurassic proportions... Well, technically it's Cretaceous proportions, but we'll let that slide for now",
-                "id": "time",
-                "required": true,
-                "description": "",
-                "type": "string",
-                "value": "20:30"
-            }
+            {}
             ]
         }
 }
