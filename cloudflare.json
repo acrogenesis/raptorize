@@ -27,7 +27,12 @@
         "scripts" : {
         },
         "config" : {
-            "assets" : {},
+            "assets" : {
+                "logos" : {
+                    "200px": "./images/logo-200.png",
+                    "132px": "./images/logo-132.png"
+                }
+            },
             "payment": {},
             "details": {
                "Category": "Games",
