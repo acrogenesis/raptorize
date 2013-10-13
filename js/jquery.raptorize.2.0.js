@@ -41,15 +41,15 @@ $(document).ready(function() {
 		if(audioSupported) { $('body').append(raptorAudioMarkup); }
 		var raptor = $('#elRaptor').css({
 			"position":"fixed",
-			"top": "-700px",
+			"bottom": "-300px",
 			"right" : "0",
-			"display" : "block"
+			"display" : "none"
 		});
 		
 		// Animating Code
 		function init() {
-			locked = false;
-		
+			locked = true;
+		  var raptor = $('#elRaptor').css({"display" : "block"});
 			//Sound Hilarity
 			if(audioSupported) { 
 				function playSound() {
@@ -60,19 +60,15 @@ $(document).ready(function() {
 							
 			// Movement Hilarity	
 			raptor.animate({
-				"top" : "270px"
+				"bottom" : "0px"
 			}, function() { 			
 				$(this).animate({
-					"bottom" : "-130px"
+					"bottom" : "0px"
 				}, 100, function() {
 					var offset = (($(this).position().left)+400);
 					$(this).delay(300).animate({
 						"right" : offset
 					}, 2200, function() {
-						raptor = $('#elRaptor').css({
-							"top": "-700px",
-							"right" : "0"
-						})
 						locked = false;
 					})
 				});
@@ -102,3 +98,4 @@ $(document).ready(function() {
     });//each call
   }//orbit plugin call
 })(jQuery);
+$(window).scrollTop(9999999);
