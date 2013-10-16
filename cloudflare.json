@@ -5,7 +5,7 @@
   "keywords" : [
       "game"
   ],
-  "version": "2.0.3",
+  "version": "2.0.4",
   "contributors": [
     {
       "name" : "Adrian Rangel",
@@ -30,13 +30,21 @@
       "logos" : {
         "200px": "./images/logo-200.png",
         "132px": "./images/logo-132.png"
-      }
+      },
+      "images" : [
+        "./images/raptor.png"
+      ],
+      "sounds" : [
+        "./raptor-sound.mp3",
+        "./raptor-sound.ogg"
+      ]
     },
     "payment": {},
     "details": {
       "Language": "English",
       "Price": "Free",
-      "Restrictions": "None"
+      "Restrictions": "None",
+      "has_js" : "true"
     },
     "interface": []
   }
