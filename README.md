@@ -1,8 +1,6 @@
 Raptorize jQuery Plugin
 =========
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/acrogenesis/raptorize/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 An awesome jQuery plugin that unleashes a Raptor of Jurassic proportions...
 Well, technically it's Cretaceous proportions, but we'll let that slide for now.
 
